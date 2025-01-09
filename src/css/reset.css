@@ -12,10 +12,11 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
@@ -27,8 +28,4 @@ button {
   cursor: pointer;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
