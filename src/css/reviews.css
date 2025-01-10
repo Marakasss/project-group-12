@@ -1,26 +1,3 @@
-.container {
-  max-width: 335px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .container {
-    max-width: 1150px;
-    padding-left: 65px;
-    padding-right: 65px;
-  }
-}
-
 .reviews-section-title {
   font-family: 'Gilroy', sans-serif;
   margin-bottom: 24px;
@@ -80,49 +57,5 @@
   .reviews-section-title {
     font-size: 48px;
     line-height: 0.92;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .reviews-list {
-    gap: 16px;
-    display: flex;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .reviews-list {
-    flex-direction: row;
-    gap: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .reviews-section-title {
-    font-size: 48px;
-    line-height: 0.92;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-}
-@media screen and (min-width: 768px) {
-  .reviews-box {
-    width: 272px;
-    height: 128px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .reviews-box {
-    width: 298px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .reviews-name-title {
-    font-size: 18px;
-    line-height: 1.1;
   }
 }
