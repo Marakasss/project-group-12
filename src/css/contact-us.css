@@ -1,28 +1,96 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .title-contact {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  color: #0c0c0c;
+  padding-bottom: 24px;
+  width: 100%;
+  height: 54px;
 }
 .box-contact {
+  border-radius: 30px;
+  padding: 48px 28px;
+  max-width: 335px;
+  min-height: 512px;
+  background-color: #f3f3f3;
 }
 .text-contact {
+  max-width: 279px;
+  padding-bottom: 28px;
+}
+.user-inp {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  width: 100%;
+  padding-left: 14px;
+  height: 42px;
+  outline: transparent;
+  color: #0c0c0c;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.user-inp::placeholder {
+  color: #0c0c0c;
 }
 .wrapper-cont-contact {
+  padding-bottom: 18px;
 }
 .user-name-lebel {
 }
-.user-name-inp {
-}
+
 .user-email-label {
 }
-.user-email-inp {
-}
+
 .user-tel-label {
-}
-.user-tel-inp {
 }
 .comment-leb {
 }
-.user-comment-contact {
+.wrapper-contact-comment {
 }
-.submit {
+
+.user-comment-contact {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  width: 100%;
+  height: 84px;
+  resize: none;
+  margin: 0 auto;
+  padding: 12px 14px;
+  background-color: transparent;
+}
+.user-comment-contact::placeholder {
+  color: #0c0c0c;
+}
+
+.btn-contact {
+  margin-top: 28px;
+  border-radius: 16px;
+  padding: 12px 50px;
+  min-width: 134px;
+  height: 42px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  border: transparent;
 }
 .overlay {
+  border-radius: 30px;
+  width: 335px;
+  height: 512px;
+  background-image: url(../img/contact-us/contact-us-mob@1x.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }

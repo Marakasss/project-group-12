@@ -1,5 +1,5 @@
 <section class="section" id="contact">
-  <div class="container">
+  <div class="container contact">
     <!-- "TODO" -->
     <h2 class="title-contact">Contact Us</h2>
     <form>
@@ -9,76 +9,46 @@
           phone, and message and we'll get back to you shortly.
         </p>
         <div class="wrapper-cont-contact">
-          <label class="user-name-lebel" for="user-name">Name</label>
           <input
-            class="user-name-inp"
+            class="user-inp"
             type="text"
             name="user-name"
-            id="user-name"
+            placeholder="Name"
             pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
             required
           />
         </div>
         <div class="wrapper-cont-contact">
-          <label class="user-email-label" for="user-email">Email</label>
           <input
-            class="user-email-inp"
+            class="user-inp"
             type="email"
             name="user-email"
-            id="user-email"
+            placeholder="Email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             required
           />
         </div>
         <div class="wrapper-cont-contact">
-          <label class="user-tel-label" for="user-tel">+380</label>
           <input
-            class="user-tel-inp"
+            class="user-inp"
             type="tel"
             name="user-tel"
-            id="user-tel"
+            placeholder="+380"
             pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
             required
           />
         </div>
-        <div class="wrapper-cont-contact">
-          <label class="comment-leb" for="user-comment-contact">Comment</label>
+        <div class="wrapper-contact-comment">
           <textarea
             class="user-comment-contact"
-            id="user-comment-contact"
             name="user-comment"
-            placeholder="Text input"
+            placeholder="Comment"
             required
           ></textarea>
         </div>
-        <button class="submit">Send</button>
+        <button class="btn-contact" type="submit">Send</button>
       </div>
     </form>
-    <div class="overlay">
-      <picture>
-        <source
-          srcset="
-            ../img/contact-us-desk@1x.webp 1x,
-            ../img/contact-us-desk@2x.webp 2x
-          "
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="
-            ../img/contact-us-tab@1x.webp 1x,
-            ../img/contact-us-tab@2x.webp 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ../img/contact-us-mob@1x.webp 1x,
-            ../img/contact-us-mob@2x.webp 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img src="../img/contact-us/contact-us-desk@1x.webp" alt="" />
-      </picture>
-    </div>
+    <div class="overlay"></div>
   </div>
 </section>
