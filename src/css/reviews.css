@@ -34,6 +34,16 @@
   justify-content: center;
 }
 
+.reviews-name-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+}
+
 .reviews-text {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -44,18 +54,43 @@
   color: rgba(12, 12, 12, 0.4);
 }
 
-.reviews-name-title {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #0c0c0c;
-}
 @media screen and (min-width: 768px) {
   .reviews-section-title {
     font-size: 48px;
     line-height: 0.92;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-line-list {
+    max-width: 344px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-list li:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-list li:nth-child(3) {
+    display: none;
+  }
+  .reviews-line-list {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-name-title {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-text {
+    font-size: 16px;
   }
 }
