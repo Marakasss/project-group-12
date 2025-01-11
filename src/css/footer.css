@@ -81,7 +81,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.028em;
     text-align: center;
     color: #fbfbfb;
     margin-bottom: 92px;
@@ -96,6 +96,11 @@
     .link-footer {
       font-size: 20px;
     }
+
+    .navbar-footer  .foot-adr  .foot-end-main-style {
+      line-height: 1.29;
+    } 
+
   
     .footer-nav {
       position: relative;
@@ -106,6 +111,8 @@
       top: 0;
       right: 0;
       font-size: 14px;
+      width: 160px; 
+      height: 48px;
     }
   
     .footer-link {
@@ -132,6 +139,7 @@
       top: 40px;
       left: 50%;
       transform: translateX(-50%);
+      margin-bottom: 126px;
     }
   
     .footer-link {
