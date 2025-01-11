@@ -1,54 +1,56 @@
 <section class="section" id="contact">
-  <div class="container contact">
+  <div class="container">
     <!-- "TODO" -->
     <h2 class="title-contact">Contact Us</h2>
-    <form>
-      <div class="box-contact">
-        <p class="text-contact">
-          Please use the form below to contact us. Enter your name, email,
-          phone, and message and we'll get back to you shortly.
-        </p>
-        <div class="wrapper-cont-contact">
-          <input
-            class="user-inp"
-            type="text"
-            name="user-name"
-            placeholder="Name"
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
-            required
-          />
+    <div class="contact">
+      <form>
+        <div class="box-contact">
+          <p class="text-contact">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+          <div class="wrapper-cont-contact">
+            <input
+              class="user-inp"
+              type="text"
+              name="user-name"
+              placeholder="Name"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+              required
+            />
+          </div>
+          <div class="wrapper-cont-contact">
+            <input
+              class="user-inp"
+              type="email"
+              name="user-email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
+          <div class="wrapper-cont-contact">
+            <input
+              class="user-inp"
+              type="tel"
+              name="user-tel"
+              placeholder="+380"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              required
+            />
+          </div>
+          <div class="wrapper-contact-comment">
+            <textarea
+              class="user-comment-contact"
+              name="user-comment"
+              placeholder="Comment"
+              required
+            ></textarea>
+          </div>
+          <button class="btn-contact" type="submit">Send</button>
         </div>
-        <div class="wrapper-cont-contact">
-          <input
-            class="user-inp"
-            type="email"
-            name="user-email"
-            placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            required
-          />
-        </div>
-        <div class="wrapper-cont-contact">
-          <input
-            class="user-inp"
-            type="tel"
-            name="user-tel"
-            placeholder="+380"
-            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-            required
-          />
-        </div>
-        <div class="wrapper-contact-comment">
-          <textarea
-            class="user-comment-contact"
-            name="user-comment"
-            placeholder="Comment"
-            required
-          ></textarea>
-        </div>
-        <button class="btn-contact" type="submit">Send</button>
-      </div>
-    </form>
-    <div class="overlay"></div>
+      </form>
+      <div class="img-contact"></div>
+    </div>
   </div>
 </section>
