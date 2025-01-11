@@ -27,6 +27,10 @@
   border-radius: 30px;
 }
 
+.reviews-line-list img {
+  margin-bottom: 24px;
+}
+
 .reviews-box {
   display: flex;
   flex-direction: column;
@@ -36,6 +40,7 @@
 
 .reviews-name-title {
   font-family: 'Gilroy', sans-serif;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -61,24 +66,22 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .reviews-line-list {
-    max-width: 344px;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .reviews-list li:nth-last-child(-n + 2) {
+  .reviews-line-list:nth-child(2),
+  .reviews-line-list:nth-child(3) {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .reviews-list li:nth-child(3) {
+  .reviews-line-list:nth-child(3) {
     display: none;
   }
   .reviews-line-list {
     flex-basis: calc((100% - 24px) / 2);
+  }
+  .reviews-line-list {
+    max-width: 344px;
   }
 }
 
@@ -92,5 +95,20 @@
 @media screen and (min-width: 768px) {
   .reviews-text {
     font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-list > .reviews-line-list {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .reviews-line-list {
+    flex-basis: calc((100% - 24px) / 3);
+  }
+  .reviews-line-list {
+    max-width: 344px;
   }
 }
