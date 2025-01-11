@@ -130,21 +130,13 @@
     display: flex;
     gap: 40px;
   }
-  .title-contact {
-  }
+
   .box-contact {
     width: 580px;
     padding: 50px 60px;
     margin: 0;
   }
-  .text-contact {
-  }
-  .user-inp {
-  }
-  .user-comment-contact {
-  }
-  .btn-contact {
-  }
+
   .img-contact {
     width: 530px;
   }
