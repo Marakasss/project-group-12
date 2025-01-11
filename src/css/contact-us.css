@@ -32,8 +32,8 @@
 .user-inp::placeholder {
   color: #0c0c0c;
 }
-.user-inp:hover,
-.user-inp:focus {
+
+.user-inp:focus-within {
   border: 1px solid #3350e9;
 }
 .wrapper-cont-contact {
@@ -58,8 +58,8 @@
 .user-comment-contact::placeholder {
   color: #0c0c0c;
 }
-.user-comment-contact:hover,
-.user-comment-contact:focus {
+
+.user-comment-contact:focus-within {
   border: 1px solid #3350e9;
 }
 
@@ -94,6 +94,7 @@
   .title-contact {
     font-size: 48px;
     margin-bottom: 40px;
+    line-height: 0.9;
   }
   .box-contact {
     width: 704px;
