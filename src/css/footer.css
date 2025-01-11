@@ -81,7 +81,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: -0.028em;
+    letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
     margin-bottom: 92px;
@@ -96,11 +96,6 @@
     .link-footer {
       font-size: 20px;
     }
-
-    .navbar-footer  .foot-adr  .foot-end-main-style {
-      line-height: 1.29;
-    } 
-
   
     .footer-nav {
       position: relative;
@@ -113,6 +108,7 @@
       font-size: 14px;
       width: 160px; 
       height: 48px;
+      line-height: 1.29;
     }
   
     .footer-link {
@@ -126,6 +122,7 @@
       margin-right: auto;
       margin-bottom: 100px;
       font-size: 28px;
+      line-height: 1.14;
     }
   }
   
@@ -140,6 +137,7 @@
       left: 50%;
       transform: translateX(-50%);
       margin-bottom: 126px;
+      line-height: 1.14286;
     }
   
     .footer-link {
@@ -152,6 +150,7 @@
     margin-bottom: 40px;
     align-items: first baseline;
     justify-content: space-between;
+    line-height: 1.33;
   }
   
   .link-items {
@@ -189,7 +188,7 @@
   .navbar-footer {
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     text-align: center;
     color: #fbfbfb;
   }
@@ -197,7 +196,7 @@
   .foot-adr {
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     text-align: center;
     color: #fbfbfb;
     font-style: normal;
@@ -214,6 +213,7 @@
     .foot-adr {
       max-width: 162px;
       font-size: 14px;
+      line-height: 1.29;
     }
   
     .foot-navbar-cont {
@@ -226,6 +226,8 @@
   
     .navbar-footer {
       font-size: 14px;
+      line-height: 1.29;
+
     }
   }
   
@@ -276,6 +278,15 @@
     }
     .foot-end-main-style {
       font-size: 14px;
+      line-height: 1.29;
+    }
+
+    .navbar-footer  .foot-adr  .foot-end-main-style {
+      line-height: 1.29;
+    } 
+
+    .foot-navbar-cont {
+      line-height: 1.29;
     }
   }
   
