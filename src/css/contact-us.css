@@ -143,33 +143,4 @@
   }
 }
 
-@media (min-resolution: 192dpi) {
-  .img-contact {
-    background-image: url(../img/contact-us/contact-us-mob@2x.webp);
-  }
-}
-@media screen and (min-width: 768px) {
-  .img-contact {
-    background-image: url(../img/contact-us/contact-us-tab@1x.webp);
-    max-width: 704px;
-  }
-}
 
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .img-contact {
-    background-image: url(../img/contact-us/contact-us-tab@2x.webp);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .img-contact {
-    background-image: url(../img/contact-us/contact-us-desk@1x.webp);
-    max-width: 530px;
-  }
-}
-
-@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .img-contact {
-    background-image: url(../img/contact-us/contact-us-desk@2x.webp);
-  }
-}
