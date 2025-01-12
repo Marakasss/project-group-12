@@ -84,10 +84,6 @@
   border-radius: 30px;
   max-width: 335px;
   height: 512px;
-  background-image: url(../img/contact-us/contact-us-mob@1x.webp);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
