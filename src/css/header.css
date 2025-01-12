@@ -1,5 +1,4 @@
 .header {
-  height: 74px;
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
 
@@ -22,7 +21,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   display: block;
-  padding: 24px 0;
+  padding: 27px 0;
 }
 
 .header-social-list {
@@ -30,7 +29,7 @@
 }
 
 .header-burger-btn {
-  padding: 24px 0 24px 24px;
+  padding: 20px 0;
   border: none;
   background-color: transparent;
 }
@@ -41,12 +40,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    height: 92px;
+  .header-logo {
+    font-size: 34px;
   }
 
-  .header-logo {
-    font-size: 20px;
+  .header-burger-btn {
+    padding: 26px 0;
   }
 
   .header-burger-icon {
@@ -56,10 +55,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .header {
-    height: 88px;
-  }
-
   .header-logo {
     margin-right: 76px;
   }
@@ -92,7 +87,7 @@
     padding: 0;
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     color: #0c0c0c;
     letter-spacing: 0.02em;
   }
@@ -153,13 +148,13 @@
 }
 
 .header-mobile-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 200px;
   height: 100vh;
-  opacity: 0;
-  visibility: hidden;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(100%);
   pointer-events: none;
   background-size: cover;
   background: rgba(12, 12, 12, 0.92) url('../img/header/menu-background.webp') center;
@@ -172,15 +167,14 @@
 }
 
 .header-mobile-menu.is-open {
-  opacity: 1;
-  visibility: visible;
+  transform: translateX(0);
   pointer-events: auto;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mobile-menu-container {
   position: relative;
-  padding-top: 240px;
+  padding-top: 54px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -206,9 +200,10 @@
 }
 
 .header-mobile-menu-navigation {
-  margin-bottom: auto;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .header-mobile-menu-navigation-list {
@@ -280,7 +275,7 @@
   }
 
   .header-mobile-menu-container {
-    padding-top: 310px;
+    padding-top: 66px;
     padding-bottom: 50px;
   }
 
