@@ -1,4 +1,10 @@
 /* Mobile */
+.catalog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .catalog-header {
     font-weight: 600;
@@ -6,6 +12,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+    align-self: flex-start;
     margin-bottom: 24px;
 }
 
@@ -33,6 +40,35 @@
 
 }
 
+.button-more {
+    display: inline-block;
+    width: 160px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #3350e9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    margin-top: 55px;
+}
+
+.button-more:focus,
+.button-more:hover {
+    background-color: #1f3cd4;
+}
+
+
+@media screen and (max-width: 767px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+}
+
+
 .catalog-img-container {
     display: flex;
     justify-content: center;
@@ -47,11 +83,9 @@
 .catalog-item-footer {
     display: flex;
     flex-direction: column;
-
 }
 
 .item-name {
-
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -75,6 +109,8 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  
+    
     .catalog-header {
         font-size: 48px;
         line-height: 0.92;
@@ -82,19 +118,15 @@
     }
 
     .catalog-list {
-
-        /* flex-direction: row;
-        flex-wrap: wrap; */
-
         display: grid;
         grid-template-columns: repeat(2, calc((100% - 16px) / 2));
         column-gap: 16px;
         row-gap: 32px;
+        max-width: 100%;
     }
-
     .catalog-item {
-
-        /* flex-basis: calc((100% - 16px) / 2); */
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .catalog-img-container {
@@ -105,23 +137,21 @@
         padding-right: 6px;
     }
 
+    .item-name {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .button-more {
+        display: none;
+    }
 }
-
-.item-name {
-    font-size: 20px;
-    line-height: 1;
-}
-
-
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
     .catalog-list {
-        display: grid;
         grid-template-columns: repeat(3, calc((100% - 46px) / 3));
         column-gap: 23px;
         row-gap: 32px;
     }
-
-
 }
