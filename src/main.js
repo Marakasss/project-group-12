@@ -1,0 +1,1 @@
+import { openMenu, closeMenu } from './JS/menu.js';

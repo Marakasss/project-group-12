@@ -6,12 +6,7 @@ body {
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 16px;
-    line-height: 1.25;
-  }
-}
+
 
 img {
   display: block;
@@ -39,7 +34,17 @@ img {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (min-width: 768px) {
+
+  body {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
   .section {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -82,3 +87,32 @@ img {
     max-width: 1216px;
   }
 }
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
