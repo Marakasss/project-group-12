@@ -9,12 +9,6 @@ line-height: 1.3;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
 }
-@media screen and (min-width: 768px) {
-  body {
-        font-size: 16px;
-        line-height: 1.25;  
-}
-}
 
 img {
   display: block;
@@ -42,7 +36,17 @@ img {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (min-width: 768px) {
+
+  body {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
   .section {
       padding-top: 40px;
       padding-bottom: 40px;
@@ -100,6 +104,8 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
 
 
 
