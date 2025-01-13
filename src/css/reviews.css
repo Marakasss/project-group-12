@@ -59,7 +59,7 @@
   color: rgba(12, 12, 12, 0.4);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .reviews-line-list:nth-child(2),
   .reviews-line-list:nth-child(3) {
     display: none;
