@@ -99,6 +99,11 @@
   border-radius: 30px;
 }
 
+.hero-responsive-img {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
   .hero-container {
     gap: 40px;
