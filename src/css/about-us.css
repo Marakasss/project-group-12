@@ -92,22 +92,24 @@
     }
 }
 
-.about-us-btn {
-    border-radius: 16px;
-    border: none;
-    width: 160px;
-    height: 48px;
-    background: #3350e9;
-    text-align: center;
-}
+
 
 .about-us-btn-link {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28;
-    text-align: center;
     color: #fbfbfb;
+    border-radius: 16px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    background: #3350e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 38px;
+    
 }
 
 .part-second {
