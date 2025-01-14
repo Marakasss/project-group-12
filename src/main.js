@@ -1,2 +1,3 @@
-import { openMenu, closeMenu } from './JS/menu.js';
-import { setActiveSection } from './JS/current-section.js';
+import './JS/menu.js'
+import './JS/current-section.js'
+import './JS/catalog-button.js'
