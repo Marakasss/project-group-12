@@ -1,117 +1,69 @@
 .section-sale {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 40px;
-    padding: 0px 65px;
-    background-color: #fbfbfb;
-    width: 1280px;
-    height: 642px;
+
 }
 
 .sale-container {
-    padding: 0px 65px;
-    width: 1280px;
-    height: 642px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .section-sale-tittle {
-    font-size: 48px;
-    line-height: 0.91;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-bottom: 40px;
-}
-
-
-.product-sale-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    width: 1150px;
-    height: 558px;
-    border: 1px solid transparent;
-}
-
-.image-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
-    width: 132px;
-    height: 558px;
-}
-
-.image-sale {
-    width: 132px;
-    height: 132px;
-}
-
-.big-photo {
-    margin-right: 40px;
-    width: 428px;
-    height: 558px;
-}
-
-
-
-
-.sale-product-details {
-
-
-    border-radius: 50px;
-    height: 558px;
-    width: 530px;
-    background: #3350e9;
-
-
-
-
-}
-
-.product-container {
-
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 389px;
-    height: 100px;
-    margin-left: 60px;
-    margin-top: 60px;
-    margin-right: 81px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    padding: 0;
-}
-
-.product-details-title {
 
     font-weight: 600;
     font-size: 32px;
-    line-height: 1.1;
+    line-height: 100%;
     letter-spacing: -0.02em;
-    color: #fbfbfb;
-    margin: 0;
-    padding: 0;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
+
+.image-container {
+    display: flex;
+    gap: 5px;
 
 }
 
-.product-details-tag {
-    gap: 10px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-    color: rgba(251, 251, 251, 0.5);
-    padding: 0;
+.image-sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.big-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 50px;
+    background-color: #f3f3f3;
+}
+
+.sale-product-details {
+    border-radius: 50px;
+    background: #3350e9;
+    padding: 48px 28px;
+}
+
+
+
+.product-details-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
 }
 
 .price-container {
@@ -119,28 +71,21 @@
     align-items: center;
     margin-top: 20px;
     gap: 9px;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .price-high {
-    width: 78px;
-    height: 32px;
+
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.1);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
-    line-height: 1;
+    line-height: 1.25;
     letter-spacing: -0.02em;
-    margin-left: 60px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-
-
 }
 
 .previous-price {
@@ -150,71 +95,130 @@
     line-height: 1.16;
     letter-spacing: -0.02em;
     text-decoration: line-through;
-
 }
 
-.product-details-text {
-    max-width: 410px;
+.material-block-items {
 
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
 
-
-
-    font-size: 16px;
-    line-height: 1.25;
-    color: rgba(251, 251, 251, 0.7);
-    border: 1px solid transparent;
-
+    color: #fbfbfb;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.28;
 }
 
 .material-block {
     display: flex;
     flex-wrap: wrap;
-
-    gap: 4px;
-    width: 398px;
-    margin-bottom: 59px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 41px;
+    gap: 8px;
+    margin-top: 28px;
 }
 
-.material-block-items {
-    flex: 0 1 auto;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    border: 1px solid rgba(251, 251, 251, 0.2);
-    border-radius: 8px;
-    height: 34px;
-    color: #fbfbfb;
+.product-details-tag {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.product-details-text {
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+
+    .section-sale-tittle {
+        font-size: 48px;
+        line-height: 0.9;
+        margin-bottom: 40px;
+    }
+
+    .image-wrapper {
+
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .image-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .big-photo {
+
+        width: 552px;
+        height: 558px;
+
+
+    }
+
+    .image-sale {
+        width: 132px;
+    }
+
+    .sale-product-details {
+        padding: 60px;
+    }
+
+    .product-details-title {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+
+    .price-high {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+
+    .product-details-text {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .material-block {
+        max-width: 398px;
+    }
+
+    .material-block-items {
+        font-size: 14px;
+    }
 
 }
 
-.fused-carbon {
-    width: 145px;
-}
 
-.grade-give {
-    width: 139px;
-}
+@media screen and (min-width: 1280px) {
 
-.athlete {
-    width: 70px;
-}
 
-.golfer {
-    width: 64px;
-}
 
-.commander {
-    width: 105px;
-}
+    .sale-container {
+        flex-direction: row;
+        gap: 40px;
+    }
 
-.adventurer {
-    width: 95px;
+
+
+    .image-sale {
+        width: 132px;
+        height: 132px;
+    }
+
+    .big-photo {
+        width: 428px;
+    }
+
+
+
 }
