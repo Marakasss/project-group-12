@@ -12,7 +12,7 @@
     }
   }
   
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1280px) {
     .foot-cont {
       max-width: 1216px;
     }
@@ -126,7 +126,7 @@
     }
   }
   
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1280px) {
     .foot-cont {
       position: relative;
     }
@@ -231,7 +231,7 @@
     }
   }
   
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1280px) {
     .link-items {
       gap: 40px;
       min-width: 505px;
